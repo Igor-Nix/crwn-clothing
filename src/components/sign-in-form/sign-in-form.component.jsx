@@ -5,7 +5,7 @@ import "./sign-in-form.styles.scss";
 import Button from "../button/button.component";
 
 import {
-  signInwithGooglePopup,
+  signInWithGooglePopup,
   signInAuthUserWithEmailAndPassword,
 } from "../../utils/firebase/firebase.utils";
 
@@ -25,7 +25,7 @@ const SignInForm = () => {
   };
 
   const signInWithGoogle = async () => {
-    await signInwithGooglePopup();
+    await signInWithGooglePopup();
   };
 
   const handleSubmit = async (e) => {
